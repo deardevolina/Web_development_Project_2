@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 0;
+}
+.header_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    width: 20%;
+}
+.Logo img{
+
+}
+.Unsubscribe{
+    width: 20%;
+}
+.Unsubscribe a{
+    color: #97999b;
+    text-decoration: none; 
+}
+.Banner{
+    background-image: url(../Images/Banner.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Banner h1{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32.38px;
+    margin-bottom: 15px;
+}
+.Banner p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.Banner button{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    letter-spacing: .5px;
+    background-color: #fb6e52;
+    padding: 12px 40px;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+.Banner button:hover{
+    background-color: #fb6e52e1;
+}
+.Banner button i{
+    transition: .2s all ease-in-out;
+}
+.Banner button:hover i{
+    margin-left: 2px;
+}
+.Feature_section{
+    padding-top: 50px;
+}
+.Feature_wrapper{
+    width: 80%;
+    margin: auto;
+}
+.Feature{
+    display: flex;
+    justify-content: space-between;
+}
+.Feature_item{
+    width: 30%;
+    text-align: center;
+}
+.Feature_item h3{
+    color: #292c34;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: initial;  
+} 
+.Feature_item p{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #97999b;
+    font-size: 13px;
+    font-weight: 300;
+
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background: #fb6e52;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.Quote{
+    width: 60%;
+    margin: 50px auto;
+}
+.Quote h1{
+    text-align: center;
+    color: #fb6e52;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 22;
+}
+.Gallery_section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.Gallery_section_item{
+    width: 33.3333333%;
+}
+.Gallery_section_item img{
+    height: 190px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.Gallery_section_item h3{
+    color: #292c34;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: initial;  
+}
+.Gallery_section_item p{
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #97999b;
+    font-size: 13px;
+    font-weight: 300;
+}
+.BlOG{
+    background: #f9f9f9;
+}
+.BlOG h2{
+    color: #292c34;
+    padding: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+.FROM_THE_BLOG_Gallary{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.BLOG_Gallery{
+    width: 48%;
+}
+.BLOG_Gallery img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.BLOG_Gallery h3{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #fb6e52;
+    font-weight: 500;
+    font-size: initial;  
+}
+.BLOG_Gallery p{
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #97999b;
+    font-size: 13px;
+    font-weight: 300;
+}
+footer{
+    background: #292c34;
+    padding: 50px 0;
+}
+.Footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Terms{
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+.Terms img{
+    width: 50px;
+}
+.Terms p{
+    padding: 12px;
+    color: #97999b;
+}
+.Social_icon{
+    padding: 12px;
+}
+.Social_icon ul{
+    display: flex;
+    list-style: none;
+}
+.Social_icon ul li{
+    margin-left: 12px;
+}
+.Social_icon ul li a{
+    color: #ffffff;
+}
